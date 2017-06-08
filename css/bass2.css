@@ -1,0 +1,246 @@
+.member{
+	width: 1200px;
+	min-width: 1200px;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+.side_nav{
+	width: 200px;
+	margin-right: 20px;
+	padding-bottom: 100px;
+	float: left;
+}
+.member_bg_fff{
+	background: #fff;
+}
+.side_nav .member_title{
+	height: 49px;
+	line-height: 49px;
+	text-align: center;
+	font-size: 16px;
+	color: #000000;
+	font-weight: 700;
+}
+.member_list{
+	border-top: 1px solid #00843e;
+}
+.member_list dl.men_bens{
+	padding-left: 36px;
+}
+.member_list dt.member_jiaoyi{
+	font-size: 14px;
+	line-height: 14px;
+	margin-top: 8px;
+	margin-bottom: 18px;
+	color: #333;
+}
+.member_list dd{
+	margin-bottom: 18px;
+	margin-left: 36px;
+}
+.member_list dd a{
+	color: #333333;
+}
+.member_list dd a:hover{
+	color: #009646;
+}
+.member_box{
+	width: 980px;
+	float: left;
+	margin-bottom: 30px;
+}
+.member_box .men_box_top{
+	padding: 22px 0 22px 18px;
+	background: #fff;
+}
+.men_shangchuang{
+	width: 240px;
+	float: left;
+	border-right:1px solid #f2f2f2 ;
+}
+.men_touxiang{
+	display: block;
+	width: 88px;
+	height: 88px;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	float: left;
+	margin-right: 20px;
+}
+.men_shangchuang h3.men_name{
+	font-size: 16px;
+	color: #333333;
+	line-height: 24px;
+	margin-bottom: 28px;
+	overflow: hidden;
+}
+.men_shangchuang .men_rmb{
+	display: block;
+	font-size: 12px;
+	line-height: 12px;
+	margin-bottom: 10px;
+}
+.men_color_009646{
+	color: #009646;
+}
+.men_information{
+	float: left;
+}
+.men_information ul li{
+	float: left;
+}
+.men_information ul li a {
+	width: 120px;
+	display: block;
+	height: 98px;
+	padding-top: 20px;
+}
+.men_information ul li a img{
+	display: block;
+	margin:0 auto;
+	width: 38px;
+	height: 38px;
+	overflow: auto;
+}
+.men_information ul li a p.men_infor_p{
+	font-size: 12px;
+	line-height: 12px;
+	color: #333333;
+	text-align: center;
+	margin-top: 18px;
+}
+.men_color_b4cef4{
+	color: #388be8;
+}
+/*DINGDAN*/
+.men_dingdan{
+	margin-top: 20px;
+	padding: 20px;
+	background: #fff;
+}
+.men_dingdan h3,.men_tuijian h3{
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 700;
+	
+}
+.men_dingdan h3 a.men_dd_click,.men_tuijian h3 a.men_dd_click{
+	float: right;
+	font-size: 12px;
+	line-height: 22px;
+	color: #a9a9a9;
+}
+.men_shangpinchanshi img{
+	width: 88px;
+	height: 88px;
+	overflow: hidden;
+	float: left;
+	margin-right: 22px;
+}
+.men_dingdan table{
+	margin-top: 20px;
+}
+.men_miaoshu{
+	display: block;
+	font-size: 12px;
+	line-height: 16px;
+	color: #333333;
+	text-align: left;
+	width: 180px;
+	float: left;
+}
+.men_w_140px{
+	width: 150px;
+}
+.men_w_180px{
+	width: 160px;
+	text-align: right;
+	vertical-align: middle;
+	padding-right: 20px;
+}
+.men_td{
+	text-align: center;
+	vertical-align:middle;
+}
+.men_chankan{
+	color: #333;
+}
+.men_dingdan table tbody{
+	border-bottom: 1px dotted #999;
+	margin-bottom: 5px;
+}
+/*HUIYUANTUIJIAN*/
+.men_tuijian{
+	background: #fff;
+	padding: 20px;
+	margin-top: 20px;
+}
+.men_shonp{
+	padding-top: 20px;
+}
+.float_lt{
+	float: left;
+}
+.men_margin_left_20{
+	margin-left: 20px;
+
+}
+.men_border{
+	border: 1px solid #a9a9a9;
+	height: 316px;
+}
+.men_border:hover{
+	border: 1px solid #ff0036;
+}
+.men_margin_lt{
+	margin-left: 0;
+}
+.float_rt{
+	float: right;
+}
+.men_ltone{
+	display: block;
+	width: 218px;
+}
+.men_ltone dl dt.men_itme_img{
+	display: block;
+    width: 100%;
+    height: 218px;
+    overflow: hidden;
+}
+.men_ltone dl dt.men_itme_img img{
+	display: block;
+    position: relative;
+    width: 100%;
+}
+.men_ltone dl dd{
+	padding: 0 14px;
+	margin-top: 10px;
+	width: 100%;
+	width: 190px;
+}
+.men_itme_rmb .men_rmb_n{
+	font-size: 16px;
+	color: #009646;
+}
+.men_itme_rmb .men_rmb_n span.men_rmm_hua{
+	color: #a9a9a9;
+	text-decoration:line-through;
+	margin-left: 5px;
+}
+.men_itme_wenzi{
+	display: block;
+	width: 100%;
+	font-size: 12px;
+	line-height: 12px;
+	color: #333333;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.men_itme_xiaoliang{
+	display: block;
+	width: 100%;
+	text-align: right;
+	color: #a9a9a9;
+}
