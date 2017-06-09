@@ -626,4 +626,281 @@
   border: none;
   font-size: 12px;
 }
+.main_order_form {
+  margin-top: 50px;
+  width: 1200px;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.main_order_form .address {
+  width: 100%;
+  height: 250px;
+}
+.main_order_form .address h4 {
+  line-height: 32px;
+  font-size: 18px;
+  color: #333333;
+  text-indent: 20px;
+  margin-bottom: 10px;
+}
+.main_order_form .address .add_lise {
+  width: 100%;
+  height: 180px;
+}
+.main_order_form .address .add_lise .btn_left,
+.main_order_form .address .add_lise .btn_right {
+  width: 25px;
+  height: 64px;
+  float: left;
+  margin: 60px 25px 0;
+}
+.main_order_form .address .add_lise .add_cont {
+  width: 980px;
+  height: 132px;
+  float: left;
+  border: 1px solid #E6E6E6;
+  padding: 24px 30px;
+}
+.main_order_form .address .add_lise .add_cont ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.main_order_form .address .add_lise .add_cont ul li {
+  width: 230px;
+  height: 130px;
+  border: 1px solid #999999;
+  position: relative;
+  cursor: pointer;
+}
+.main_order_form .address .add_lise .add_cont ul li .background {
+  width: 100%;
+  height: 100%;
+  background: url(../images/kuang.jpg) no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: none;
+}
+.main_order_form .address .add_lise .add_cont ul li .add_content {
+  width: 196px;
+  height: auto;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+}
+.main_order_form .address .add_lise .add_cont ul li .add_content p {
+  font-size: 12px;
+  color: #333333;
+  padding: 4px 0;
+  line-height: 16px;
+}
+.main_order_form .address .add_lise .add_cont ul li .add_content p:nth-child(1) {
+  border-bottom: 1px solid #DBDBDB;
+}
+.main_order_form .address .add_lise .add_cont ul .show {
+  border: 1px solid #FFF;
+}
+.main_order_form .address .add_lise .add_cont ul .show .background {
+  display: block;
+}
+.main_order_form .order_form {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 20px;
+}
+.main_order_form .order_form h4 {
+  line-height: 32px;
+  font-size: 18px;
+  color: #333333;
+  text-indent: 20px;
+  margin-bottom: 10px;
+}
+.main_order_form .order_form .order_form_cont {
+  width: 100%;
+  overflow: hidden;
+}
+.main_order_form .order_form .order_form_cont ul {
+  width: 100%;
+  height: 36px;
+  border-bottom: 2px solid #009646;
+  line-height: 36px;
+  text-align: center;
+}
+.main_order_form .order_form .order_form_cont ul .order_form_messoge {
+  width: 300px;
+}
+.main_order_form .order_form .order_form_cont ul li {
+  font-size: 12px;
+  color: #666666;
+  width: 150px;
+  float: left;
+}
+.main_order_form .order_form .order_form_cont .store_name {
+  width: 100%;
+  height: 42px;
+  line-height: 42px;
+}
+.main_order_form .order_form .order_form_cont .store_name input {
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF;
+  border: 1px solid #DBDBDB;
+  float: left;
+  margin: 10px 10px 0 20px;
+}
+.main_order_form .order_form .order_form_cont .store_name p {
+  font-size: 12px;
+  color: #333333;
+  float: left;
+  margin-right: 28px;
+}
+.main_order_form .order_form .order_form_cont .store_name p:nth-child(3) {
+  margin-right: 0;
+}
+.main_order_form .order_form .order_form_cont .store_name select {
+  width: 160px;
+  height: 24px;
+  border: 1px solid #DBDBDB;
+  color: #333333;
+}
+.main_order_form .order_form .order_form_cont ol {
+  width: 100%;
+  height: 125px;
+  text-align: center;
+}
+.main_order_form .order_form .order_form_cont ol li {
+  margin: 24px 0;
+  width: 150px;
+  float: left;
+}
+.main_order_form .order_form .order_form_cont ol li .checkbox {
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF;
+  border: 1px solid #DBDBDB;
+  float: left;
+  margin: 30px 10px 0 20px;
+}
+.main_order_form .order_form .order_form_cont ol li img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 12px;
+}
+.main_order_form .order_form .order_form_cont ol li a {
+  width: 200px;
+  overflow: hidden;
+  display: block;
+  float: left;
+  color: #333333;
+  line-height: 20px;
+  text-align: left;
+}
+.main_order_form .order_form .order_form_cont ol li p {
+  color: #333333;
+}
+.main_order_form .order_form .order_form_cont ol li span {
+  color: #009646;
+}
+.main_order_form .order_form .order_form_cont ol li i {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #DBDBDB;
+  background: #F2F2F2;
+  color: #333333;
+  float: left;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.main_order_form .order_form .order_form_cont ol li i:nth-child(1) {
+  margin-left: 30px;
+}
+.main_order_form .order_form .order_form_cont ol li .num {
+  width: 40px;
+  height: 22px;
+  border: 1px solid #B3B3B3;
+  float: left;
+  text-align: center;
+}
+.main_order_form .order_form .order_form_cont ol .order_form_messoge {
+  width: 360px;
+  margin-left: -60px;
+}
+.main_order_form .order_form .order_form_cont .liuyan {
+  width: calc(100% - 40px);
+  height: 80px;
+  background: #F5F5F5;
+  padding: 10px 20px;
+  display: flex;
+}
+.main_order_form .order_form .order_form_cont .liuyan div {
+  flex: 1;
+}
+.main_order_form .order_form .order_form_cont .liuyan div p {
+  font-size: 12px;
+  color: #333333;
+}
+.main_order_form .order_form .order_form_cont .liuyan div p input {
+  width: 238px;
+  height: 22px;
+  border: 1px solid #DBDBDB;
+  background: #ffffff;
+}
+.main_order_form .order_form .order_form_cont .liuyan div:nth-child(3) {
+  text-align: right;
+}
+.main_order_form .order_form .order_form_cont .liuyan div:nth-child(3) span {
+  color: #B0B0B0;
+  line-height: 20px;
+}
+.main_order_form .order_form .order_form_cont .liuyan div:nth-child(3) i {
+  color: #009646;
+}
+.main_order_form .order_form .order_form_cont .liuyan div:nth-child(3) p:nth-child(3) {
+  margin-top: 24px;
+}
+.main_order_form .order_form .order_form_cont .liuyan div:nth-child(3) p:nth-child(3) i {
+  font-size: 16px;
+}
+.main_order_form .order_form .order_form_cont .order_submin {
+  width: 364px;
+  height: 160px;
+  float: right;
+  margin: 20px 0 60px;
+}
+.main_order_form .order_form .order_form_cont .order_submin div {
+  width: 340px;
+  height: 106px;
+  border: 2px solid #F18E00;
+  text-align: right;
+  padding-right: 20px;
+}
+.main_order_form .order_form .order_form_cont .order_submin div p {
+  font-size: 19px;
+  line-height: 58px;
+  color: #009646;
+}
+.main_order_form .order_form .order_form_cont .order_submin div span {
+  font-size: 12px;
+  line-height: 18px;
+  color: #333333;
+}
+.main_order_form .order_form .order_form_cont .order_submin button {
+  width: 168px;
+  height: 40px;
+  background: #F18E00;
+  border: none;
+  color: #FFFFFF;
+  font-size: 16px;
+  margin-top: 10px;
+  float: right;
+  cursor: pointer;
+}
 /*# sourceMappingURL=public.css.map */
