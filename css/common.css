@@ -205,6 +205,7 @@ input:focus {
 	top: 100%;
 	z-index: 100;
 	display: none;
+	margin-left: -12px;
 }
 .con_text ul li{
 	line-height: 42px;
